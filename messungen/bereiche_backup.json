@@ -1,0 +1,38 @@
+{
+  "captured_at": "2026-08-31T14:33:40",
+  "wiring": "V3A3,P1W2",
+  "states": [
+    {
+      "element": 1,
+      "voltage_range": 15.0,
+      "voltage_auto": true,
+      "current_range": 0.05,
+      "current_sensor": true,
+      "current_auto": true
+    },
+    {
+      "element": 2,
+      "voltage_range": 15.0,
+      "voltage_auto": true,
+      "current_range": 0.05,
+      "current_sensor": true,
+      "current_auto": true
+    },
+    {
+      "element": 3,
+      "voltage_range": 15.0,
+      "voltage_auto": true,
+      "current_range": 0.05,
+      "current_sensor": true,
+      "current_auto": true
+    },
+    {
+      "element": 4,
+      "voltage_range": 15.0,
+      "voltage_auto": true,
+      "current_range": 0.005,
+      "current_sensor": false,
+      "current_auto": false
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "sidecar_version": 1,
+  "run_id": "8bb20256f45647b4",
+  "recorded_at": "2026-08-31T14:17:04.180371+02:00",
+  "parameters": {
+    "sample_interval_s": 1.0,
+    "max_samples": 20,
+    "max_duration_s": null,
+    "use_hold": true,
+    "record_condition": true,
+    "check_update_rate": true,
+    "mark_duplicates": true,
+    "error_policy": null,
+    "csv_file": "mit_bereichen.csv"
+  },
+  "device": {
+    "idn": "YOKOGAWA,WT3000,C1B234567,F2.11",
+    "communicate": "0,0,0",
+    "rate": "1.000E+00",
+    "numeric_format": "FLOat",
+    "input": "ELEMENT1,1000V;ELEMENT2,1000V;ELEMENT3,1000V;ELEMENT4,1000V",
+    "input_wiring": "V3A3,P1W2",
+    "input_module": "30,30,30,30",
+    "input_scaling": "0,0,0,0",
+    "input_filter": "OFF,OFF,OFF,OFF",
+    "input_cfactor": "3",
+    "measure": "NORMAL"
+  },
+  "item_table": {
+    "number": 8,
+    "items": [
+      {
+        "index": 1,
+        "function": "U",
+        "element": "1",
+        "order": null,
+        "argument": "U,1"
+      },
+      {
+        "index": 2,
+        "function": "I",
+        "element": "1",
+        "order": null,
+        "argument": "I,1"
+      },
+      {
+        "index": 3,
+        "function": "P",
+        "element": "1",
+        "order": null,
+        "argument": "P,1"
+      },
+      {
+        "index": 4,
+        "function": "U",
+        "element": "2",
+        "order": null,
+        "argument": "U,2"
+      },
+      {
+        "index": 5,
+        "function": "I",
+        "element": "2",
+        "order": null,
+        "argument": "I,2"
+      },
+      {
+        "index": 6,
+        "function": "P",
+        "element": "2",
+        "order": null,
+        "argument": "P,2"
+      },
+      {
+        "index": 7,
+        "function": "P",
+        "element": "SIGMA",
+        "order": null,
+        "argument": "P,SIGMA"
+      },
+      {
+        "index": 8,
+        "function": "LAMBDA",
+        "element": "SIGMA",
+        "order": null,
+        "argument": "LAMBDA,SIGMA"
+      }
+    ]
+  },
+  "columns": [
+    "U1",
+    "I1",
+    "P1",
+    "U2",
+    "I2",
+    "P2",
+    "PSIGMA",
+    "LAMBDASIGMA"
+  ],
+  "units": {
+    "U1": "V",
+    "I1": "A",
+    "P1": "W",
+    "U2": "V",
+    "I2": "A",
+    "P2": "W",
+    "PSIGMA": "W",
+    "LAMBDASIGMA": ""
+  },
+  "data_files": [
+    {
+      "name": "mit_bereichen.csv",
+      "bytes": 1028,
+      "sha256": "244760302a1ef5092a3b311cc0d8efc1e8e706449d9fade2f7ff461654668a19"
+    }
+  ],
+  "result": {
+    "samples": 5,
+    "measured_samples": 5,
+    "duplicates": 0,
+    "missing": 0,
+    "overruns": 0,
+    "reconnects": 0,
+    "update_rate_s": 1.0
+  }
+}

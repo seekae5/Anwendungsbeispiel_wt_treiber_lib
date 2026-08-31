@@ -1,0 +1,7 @@
+{
+  "ip": "192.168.10.20",
+  "user": "TEST",
+  "password": "1",
+  "dll_path": "tools/tmctl64.dll",
+  "use_remote": true
+}

@@ -1,0 +1,32 @@
+version = 1
+revision = 3
+requires-python = ">=3.11"
+
+[[package]]
+name = "anwedungsbeispiel-wt-treiber-lib"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "wt-treiber-lib" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "wt-treiber-lib", path = "C:/Users/Persystems/PycharmProjects/wt_treiber_V3eL/dist/wt_treiber_lib-1.0.0-py3-none-any.whl" }]
+
+[[package]]
+name = "wt-treiber-lib"
+version = "1.0.0"
+source = { path = "C:/Users/Persystems/PycharmProjects/wt_treiber_V3eL/dist/wt_treiber_lib-1.0.0-py3-none-any.whl" }
+wheels = [
+    { filename = "wt_treiber_lib-1.0.0-py3-none-any.whl", hash = "sha256:b1555323774a174f164dca74f53ef4bc58ee46e493aa7596d4a0fdf3f886af84" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "mypy", marker = "extra == 'dev'", specifier = ">=1.11" },
+    { name = "pyflakes", marker = "extra == 'dev'", specifier = ">=3.0" },
+    { name = "pytest", marker = "extra == 'dev'", specifier = ">=8.0" },
+    { name = "pytest", marker = "extra == 'test'", specifier = ">=8.0" },
+    { name = "ruff", marker = "extra == 'dev'", specifier = ">=0.6" },
+]
+provides-extras = ["dev", "test"]
